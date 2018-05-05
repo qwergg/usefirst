@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/biaodanJson.js">
+			
+		</script>
+		<style type="text/css">
+			.p1 {
+				margin-left: 40px;
+			}
+			
+			.p1 button {
+				margin-right: 20px;
+			}
+			
+			p:nth-of-type(2) {
+				font-size: 12px;
+				color: deepskyblue;
+			}
+			
+			p:nth-of-type(4) {
+				font-size: 12px;
+				color: deepskyblue;
+			}
+		</style>
+	</head>
+
+	<body>
+		<p>账号:<input type="text" class="int1" placeholder="请输入账号" /></p>
+		<p></p>
+		<p>密码:<input type="password" class="int2" placeholder="请输入密码" /></p>
+		<p></p>
+		<p class="p1"><button>登录</button><button>注册</button></p>
+		
+		<script type="text/javascript">
+			var op = document.getElementsByTagName('p');
+			var int1 = document.getElementsByClassName('int1')[0];
+			var int2 = document.getElementsByClassName('int2')[0];
+			var btn = document.getElementsByTagName('button');
+			var regzh = /^[a-zA-Z0-9]{4,9}$/;
+			var regmima = /^(?![0-9]+$)(?![a-zA-Z]+$)[a-zA-Z0-9]{5,12}$/;
+
+			int1.onclick = function() {
+				op[1].innerHTML = '账号格式应为数字或字母格式4到9个长度!'
+			}
+			int2.onclick = function() {
+				op[3].innerHTML = '密码格式应为数字与字母混合格式5到12个长度!'
+			}
+
+		
+			//二减少代码
+			btn[0].onclick = function() {
+             
+				if(int1.value == '' && int2.value == '') {
+					alert('账号密码不能为空');
+				} else if(int1.value == '') {
+
+					alert('您输入的账号不能为空');
+
+				} else {
+
+					if(int2.value == '') {
+						alert('密码不能为空');
+
+					} else {
+						if(int1.value==arr.zh && int2.value==arr.mm) {
+							alert('登录成功');
+						 window.open('index.html')
+						} else {
+							alert('您输入的账号和密码不配套');
+						}
+					}
+				}
+
+			}
+
+			btn[1].onclick = function() {
+
+				if(int2.value && int1.value) {
+					if(regmima.test(int2.value) && regzh.test(int1.value)) {
+						arr.zh=int1.value;
+						arr.mm=int2.value;
+						alert('恭喜您注册成功');
+						int1.value=null;
+						int2.value=null;
+					} else {
+						alert('您输入的账号或密码不符合格式');
+					}
+				} else {
+					alert('您注册的账号或密码不能为空');
+				}
+
+			}
+		
+		</script>
+	</body>
+
+</html>

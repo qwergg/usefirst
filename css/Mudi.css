@@ -1,0 +1,208 @@
+.Mudi_wrap{
+	width: 100%;
+	height: 400px;
+	}
+ .Mudi_wrap_img{
+		height: 400px;
+		width: 100%;
+	}
+.Mudi_content_wrap{
+	width: 100%;
+	height: 1850px;
+	background: rgb(246,246,246);
+}
+.Mudi_content_wrapk{
+	margin: 0 auto;
+	width: 1200px;
+	height: 1850px;
+	/*background: yellow;*/
+	overflow: hidden;
+}
+.Mudi_content{
+	margin-top: 30px;
+	width: 1200px;
+	height:80px;
+	text-align: center;
+}
+.Mudi_img_top{
+	position: relative;
+	width: 1200px;
+	height: 580px;
+	/*background: bisque;*/
+}
+.Mudi_img_topone{
+	width: 170px;
+	height: 160px;
+	position: absolute;
+	left: 50%;
+	margin-left:45px;
+	top: 20px;
+	z-index: 10;
+	border-radius:8px;
+}
+.Mudi_img_toptwo{
+	width: 470px;
+	height:300px;
+	position: absolute;
+	left: 50%;
+	margin-left: -235px;
+	top: 130px;
+	border-radius:6px;
+}
+.Mudi_img_top_fontfirst{
+	position: absolute;
+	width:48px;
+	height:20px;
+	background: rgb(191,185,194);
+	left: 50%;
+	margin-left:190px;
+	color: black;
+	text-align: center;
+	top: 40px;
+	z-index: 11;
+	font-size: 15px;
+	cursor: pointer;
+	opacity: 0.7;
+	/*background: url(../img/mudid/mudid11.jpg);*/
+}
+.Mudi_img_top_fontsecond{
+	position: absolute;
+	width: 45px;
+	height: 20px;
+	background: rgb(191,185,194);
+	left: 50%;
+	margin-left:-252px;
+	color: black;
+	text-align: center;
+	top:330px;
+	font-size: 15px;
+	cursor: pointer;
+}
+.Mudi_img_top_fontfirst_js{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	right: 0px;
+	top:30px ;
+	color: #666;
+}
+.Mudi_img_top_fontfirst_js h3{
+	margin-bottom: 6px;
+	margin-top: 5px;
+}
+
+.Mudi_img_top_fontsecond_js{
+	width: 300px;
+	height: 200px;
+	color: #666;
+	top: 230px;
+	position: absolute;
+}
+/*mid*/
+.Mudi_img_midone{
+	position: absolute;
+	width: 550px;
+	height: 250px;
+}
+.Mudi_img_midtwo{
+	position: absolute;
+	width: 244px;
+	height: 170px;
+	left:240px;
+	top: 225px;
+}
+.Mudi_img_mid_fontfirst{
+	position: absolute;
+	background: rgb(191,185,194);
+	width: 112px;
+	height:21px;
+	left:505px;
+	top: 15px;
+	font-size: 15px;
+	text-align: center;
+	cursor: pointer;
+}
+.Mudi_img_mid_fontsecond{
+	position: absolute;
+	background: rgb(191,185,194);
+	width:95px;
+	height:22px;
+	text-align: center;
+	font-size: 15px;
+	cursor: pointer;
+	left:440px;
+	top:345px;
+}
+.Mudi_img_mid_fontfirst_js{
+	position: absolute;
+	width: 210px;
+	height: 130px;
+	/*background: yellow;*/
+	right: 260px;
+	color: #666;
+}
+.Mudi_img_mid_fontsecond_js{
+	position: absolute;
+	width: 400px;
+	height: 200px;
+	/*background: yellow;*/
+	right: 220px;
+	top: 260px;
+	color: #666;
+}
+/*bottom*/
+.Mudi_img_bottomone{
+	position: absolute;
+	width: 340px;
+	height:420px;
+	left: 50%;
+	margin-left: -40px;
+}
+.Mudi_img_bottomtwo{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	left: 280px;
+	top: 40px;
+}
+.Mudi_img_bottom_fontfirst{
+	text-align: center;
+	position: absolute;
+	right:240px;
+	background: rgb(191,185,194);
+	width:78px;
+	height:21px;
+	top: 15px;
+	font-size: 15px;
+	cursor: pointer;
+}
+.Mudi_img_bottom_fontsecond{
+	text-align: center;
+	position: absolute;
+	width: 77px;
+	height: 20px;
+	background: rgb(191,185,194);
+	font-size: 15px;
+	cursor: pointer;
+	top:260px;
+	left: 225px;
+}
+.Mudi_img_bottom_fontfirst_js{
+	right: 0;
+	position: absolute;
+	width: 255px;
+	height: 150px;
+	right: 12px;
+	top: 70px;
+	/*background: yellow;*/
+	color: #666;
+}
+.Mudi_img_bottom_fontsecond_js{
+	position: absolute;
+	color: #666;
+	width: 200px;
+	height: 200px;
+	top: 60px;
+	left: 20px;
+	/*background: yellow;*/
+}

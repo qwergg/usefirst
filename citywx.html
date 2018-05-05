@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/citywx.css" />
+		<script src="jquery-1.12.4.min.js"></script>
+		<script src="js/citywxDate.js"></script>
+		<script src="js/citywx.js"></script>
+
+	</head>
+
+	<body>
+		<div id="headcity"></div>
+		<!--tou-->
+		<div class="citywx_bg_wrap">
+			<ul class="citywx_bg_wrap_fonts">
+				<li>城市万象</li>
+				<li></li>
+			</ul>
+		</div>
+		<!--body-->
+		<div class="citywx_body_wrap">
+			<div class="citywx_body">
+				<div class="citywx_body_one"></div>
+				<div class="citywx_body_two"></div>
+				<div class="citywx_body_three"></div>
+				<div class="citywx_body_four"></div>
+				<div class="citywx_body_five"></div>
+			</div>
+			<!--轮播模板-->
+			<div class="mban" style="display:none;">
+				<!--first-->
+				<div class="citywx_body_one_lunbo_left" style="float:$left;">
+					<!--父dingwei-->
+					<ul class="citywx_body_one_lunbo">
+						<!--xiao轮播-->
+						<li><img src="$img01" /></li>
+						<li><img src="$img02" /></li>
+						<li><img src="$img03" /></li>
+					</ul>
+					<div class="citywx_body_one_btn">
+						<!--左右切换按钮-->
+						<button class="citywx_body_left"><</button>
+						<button class="citywx_body_right">></button>
+					</div>
+				</div>
+				<div class="citywx_body_one_fonts_right" style="float:$right;">
+					<!--轮播右边文字介绍-->
+					<ul class="citywx_body_one_fonts" style="display: block;">
+						<li>$wz01</li>
+						<li>$wz02</li>
+					</ul>
+					<ul class="citywx_body_one_fonts">
+						<li>$wz03</li>
+						<li>$wz04</li>
+					</ul>
+					<ul class="citywx_body_one_fonts">
+						<li>$wz05</li>
+						<li>$wz06</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="footercity"></div>
+	</body>
+
+</html>

@@ -1,0 +1,100 @@
+.City_body{
+	position: relative;
+	width: 100%;
+	height:400px;
+	background: url(../img/Citylx01.jpg)no-repeat center;
+}
+.City_body_font{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	width: 500px;
+	height: 100px;
+	font-size:40px;
+	color: white;
+}
+.City_content_wrap{
+	width: 100%;
+	height: 1580px;
+	background:rgb(246,246,246) ;
+	overflow: hidden;
+	position: relative;
+}
+.City_content{
+	width: 1300px;
+	height: 1570px;
+	margin: 10px auto;
+	text-align: center;
+	/*background: yellow;*/	
+}
+.City_content li{
+	width: 1300px;
+	height: 305px;
+	border-bottom: 1px dotted rgb(210,210,210);
+}
+.City_content_img{
+	width: 300px;
+	height:300px;
+	border-radius: 300px;
+	transition: 1s;
+	margin-top: 3px;
+	cursor: pointer;
+}
+/*.City_content_img:hover{
+	width: 749px;
+	height:300px;
+	transition: 1.5s;
+	border-radius:50px;
+	
+}*/
+.City_content_fontleft{
+	position: absolute;	
+	top: 0;
+}
+.City_content_fontleft li{
+	width: 280px;
+	height: 308px;
+	line-height: 308px;
+	text-align: center;
+	font-size:25px;
+	color: rgb(110,110,100);
+	
+}
+.City_content_fontright{
+	position: absolute;
+	top: 0;
+	right:100px;
+}
+.City_content_fontright li{
+	width: 200px;
+	height: 308px;
+	line-height:308px;
+	text-align: center;
+	font-size:25px;
+	color: rgb(110,110,100);
+}
+.qa{
+	position: absolute;
+	top:13px;
+	left: 50%;
+	margin-left:-150px;
+	
+}
+.qaq{	
+	width: 300px;
+	height:300px;
+	border-radius: 300px;
+	margin-bottom:6px;
+	font-size: 13px;
+	color: rgb(210,210,210);
+	font-style: italic;
+	text-align: center;
+	opacity: 0;
+	cursor: pointer;
+	/*background: white;*/
+	
+	
+}

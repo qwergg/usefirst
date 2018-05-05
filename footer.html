@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+	</head>
+	<body>
+		<div class="footer_footer_wrap">
+			<div class="footer_footer_content">
+				<ul class="footer_nav_wrap">
+					<li onclick="window.open('index.html#0')">首页</li>
+					<li onclick="window.open('Citylx.html#1')">走进城市</li>
+					<li onclick="window.open('citywx.html#2')">城市万象</li>
+					<li>
+						目的地
+						<ul class="footer_nav_wrap_content">
+							<li onclick="window.open('Mudi.html?1#3')">拉普兰&nbsp;</li>
+							<li onclick="window.open('Mudi.html?2#3')">湖区&nbsp;</li>
+							<li onclick="window.open('Mudi.html?3#3')">群岛&nbsp;</li>
+							<li onclick="window.open('Mudi.html?4#3')">广州&nbsp;</li>
+							<li onclick="window.open('Mudi.html?5#3')">重庆&nbsp;</li>
+						</ul>
+					</li>
+					<li>出行季节
+						<ul class="footer_nav_wrap_content">
+							<li onclick="window.open('jijie.html#4')">春季 &nbsp;</li>
+							<li onclick="window.open('jijie.html#4')">夏季 &nbsp;</li>
+							<li onclick="window.open('jijie.html#4')">秋季 &nbsp;</li>
+							<li onclick="window.open('jijie.html#4')">冬季 &nbsp;</li>
+						</ul>
+					</li>
+					<li onclick="window.open('index.html#5')">
+						精彩体验
+						<!--<ul class="footer_nav_wrap_content">
+							<li>豪迈激情</li>
+							<li>活力文化</li>
+							<li>放松休闲</li>
+							<li>驻足这里</li>
+							
+						</ul>-->
+					</li>
+					<li onclick="window.open('index.html#6')">
+						联系我们
+						
+					</li>
+				</ul>
+			</div>
+			<div class="footer_footer_lianxi">
+				<ul class="footer_footer_img">
+					<li><img src="img/weibo.jpg"/></li>
+					<li><img src="img/weixin.jpg"/></li>			
+					<li><img src="img/qq.jpg"/></li>
+					<li><img src="img/phone.jpg"/></li>
+				</ul>
+				<p class="footer_footfont">Welcome your visit!</p>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="jquery-1.12.4.min.js"></script>
+			<script type="text/javascript">	
+				var $footernav=$('.footer_nav_wrap>li');
+				$footernav.on('mouseenter','.footer_nav_wrap_content li',function(){
+				$(this).addClass('footer_fontcolor');
+				$footernav.addClass('footer_fontcolor01');
+				}).on('mouseleave','.footer_nav_wrap_content li',function(){
+				$(this).removeClass('footer_fontcolor');
+				$footernav.removeClass('footer_fontcolor01');
+				})
+				
+			</script>
+		
+	</body>
+</html>

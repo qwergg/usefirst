@@ -1,0 +1,28 @@
+var listsj={};
+listsj.listsj00={
+	"list":[{
+		"title":"住宿",
+		"ID":1,
+		"img":"url(img/img_xuanze01.jpg)"
+	},{
+		"title":"拉普兰",
+		"ID":2,
+		"img":"url(img/img_xuanze02.jpg)"
+	},{
+		"title":"文化",
+		"ID":3,
+		"img":"url(img/img_xuanze03.jpg)"
+	},{
+		"title":"亲子游",
+		"ID":4,
+		"img":"url(img/img_xuanze04.jpg)"
+	},{
+		"title":"购物",
+		"ID":5,
+		"img":"url(img/img_xuanze05.jpg)"
+	},{
+		"title":"疗养身心",
+		"ID":6,
+		"img":"url(img/img_xuanze06.jpg)"
+	}]
+}

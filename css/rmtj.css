@@ -1,0 +1,27 @@
+.rmtj_wrap{
+	width: 100%;
+	height: 600px;
+	
+}
+.rmtj_content{
+	width: 1200px;
+	height: 600px;
+	margin: 0 auto;
+	
+}
+.rmtj_content h2{
+	width: 900px;
+	height: 80px;
+	line-height: 80px;
+	margin: 0 80px;
+}
+.rmtj_content p{
+	width: 900px;
+	height: 100px;
+	margin: 0 80px;
+}
+.rmtj_img{
+	width: 1200px;
+	height: 300px;
+	
+}

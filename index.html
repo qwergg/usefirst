@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	    <script type="text/javascript" src="jquery-1.12.4.min.js"></script>	    
+	    <script type="text/javascript" src="js/indexDate.js"></script>
+	    <script type="text/javascript" src="js/indexshuju.js"></script>
+	    <script type="text/javascript" src="js/index.js"></script> 	   
+	</head>
+	<body>
+		<div id="headerx"></div>
+		
+		<div class="index_banner_wrap">   <!--banner图 -->			
+			<ul class="index_banner">
+				<li style="display: block;">
+					<div class="banner_font">
+						<p class="banner_font_biaoti">热门推荐</p>
+						<p class="banner_font_js">体验不一样的滑雪乐趣,感受滑雪的魅力</p>
+					    <button class="banner_font_chakan" onclick="window.open('rmtj.html?1')">查看详情</button>
+					</div>
+				</li>
+				<li>
+					<div class="banner_font">
+						<p class="banner_font_biaoti">热门推荐</p>
+						<p class="banner_font_js">体验异国的魅力风景,感受极光的魅力</p>
+					    <button class="banner_font_chakan" onclick="window.open('rmtj.html?3')">点我进入</button>
+					</div>
+				</li>
+				<li>
+					<div class="banner_font">
+						<p class="banner_font_biaoti">热门推荐</p>
+						<p class="banner_font_js">在异国出游旅行,你要知道了解的是？</p>
+					    <button class="banner_font_chakan" onclick="window.open('rmtj.html?2')">点击了解</button>
+					</div>
+				</li>
+			</ul>		
+			<button class="idx_btn_left">&lt;</button>
+			<button class="idx_btn_right">&gt;</button>
+			<ul class="index_dian">       <!--点-->
+				<li style="background-color: burlywood;"></li>
+				<li></li>
+				<li></li>
+			</ul>		
+		</div>    
+		<!--body主体部分-->
+         <div class="index_body_wrap">
+         	<div class="index_body_content">
+         		<ul class="index_body_content_biaoti">
+         			<li>热点推荐</li>
+         			<li>异国生活风情介绍:</li>
+         		</ul>
+         		<div class="index_body_kuangjia"></div>       			       			       		
+         		<div class="index_body_more">
+         			<ul class="index_body_jiantou">
+         				<li><img src="img/img_jiantou.png" style="width: 37px;height: 70px;"/></li>
+         				<li>查看更多</li>
+         			</ul>
+         		</div>
+         		<ul class="index_body_content_biaoti">
+         			<li>丰富的选择</li>
+         			<li>在芬兰你可以有这么多选择:</li>
+         		</ul>
+         		<div class="index_xuanzekuanjia"></div>
+         	</div>
+         	<div class="moban00" style="display: none;"> <!--模板-->
+         			<!--单个界面内容-->
+         			<div class="index_moban">
+         				<ul class="index_moban_img" style="background: $bg;">
+         					<li class="index_moban_biaoti">$title</li>
+         				    <li class="index_moban_line"></li>
+         				</ul>
+         				<ul class="index_moban_wenzhang">
+         					<li>$wenzhang</li>
+         				</ul>
+         			</div>	
+         			</div>
+         	
+         	<div class="moban01" style="display: none;"> <!--丰富选择模板-->
+         			<!--单个界面内容-->
+         			<div class="index_moban">
+         				<ul class="index_moban_img" style="background: $bg;">
+         					<li class="index_moban_biaoti">$title</li>
+         				    <li class="index_moban_line"></li>
+         				</ul>
+         			</div>	
+         			</div>
+           </div>
+          <div class="index_index_cityjieshao">
+          	<ul class="index_cityjieshao_bt">
+          		<li>去哪里?</li>
+          		<li>探索你喜欢目的地:</li>
+          	</ul>
+          	<div class="index_index_city">
+          		<ul class="index_city_img">
+          			<li><img src="img/img_city01.jpg" class="city_one"/></li>
+          			<li><img src="img/img_city02.jpg" class="city_two"/></li>
+          			<li><img src="img/img_city03.jpg" class="city_three"/></li>
+          			<li><img src="img/img_city04.jpg" class="city_four"/></li>
+          			<li><img src="img/img_city05.jpg" class="city_five"/></li>
+          		</ul>
+          		<button class="index_city_leftbtn"><</button>
+          		<button class="index_city_rightbtn">></button>
+          	    <div class="cityname">拉普兰</div>
+          	</div>
+          </div>
+          <div class="index_lianxiwomen">
+          	<p style="text-align: center;line-height: 80px;font-size: 35px;color: cadetblue;">联系我们</p>
+          	<div class="index_lxwm">
+          		<ul class="index_lxwm_left">
+          			<li class="index_lxwm_fontcolor">OUR ADDRESS</li>        			
+          			<li class="index_lxwm_fontcolortwo">xxxxxxxxx</li>
+          			<li class="index_lxwm_fontcolor">CALL US</li>
+          			<li class="index_lxwm_fontcolortwo">+xxxxxxxx</li>
+          			<li class="index_lxwm_fontcolortwo">+xxxxxxxx</li>
+          			<li class="index_lxwm_fontcolor">EMAIL US</li>
+          			<li class="index_lxwm_fontcolortwo">xxxxxxxxx</li>
+          		</ul>
+          		<ul class="index_lxwm_right">
+          			<li class="index_lxwm_fontbt" style="margin-top: 43px;">
+          			Name:
+          			<input type="text" class="index_lxwm_int"/>
+          			</li>
+          			<li class="index_lxwm_fontbt">Email:
+          			<input type="text" class="index_lxwm_int"/></li>
+          			<li class="index_lxwm_fontbt">Subject:
+          			<input type="text" class="index_lxwm_int"/></li>
+          			<li class="index_lxwm_fontbttwo">Message:
+          			<input type="text" class="index_lxwm_int"/></li>
+          			<li><button class="index_lxwm_fontbtn">SEND MESSAGE</button></li>
+          		</ul>
+          	</div>
+          </div>
+          
+         <div id="footer"></div>
+	</body>
+</html>
